@@ -1,0 +1,138 @@
+/* ---------------------------------------
+   Lighthouse Coffee - Responsive Design
+------------------------------------------*/
+
+body {
+    font-family: Constantia, "Lucida Bright", Georgia, serif;
+    background: linear-gradient(#A6A8BA, #1B1B6A);
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: #b3c7e6;
+    border: 2px solid #E5E5E5;
+    margin: 1rem auto;
+    box-shadow: 1px 3px 15px black;
+    max-width: 960px;
+}
+
+header {
+    background-color: #869dc7;
+    color: #00005D;
+    padding: 50px 0 50px 125px;
+    background-image: url(lighthouselogo.jpg);
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 120%;
+    line-height: 1.4;
+    padding: 1rem 2rem;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: .75rem;
+    background-color: #869dc7;
+    clear: both;
+}
+
+
+
+/* Navigation Bar
+-------------------------------*/
+nav {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    background-color: #b3c7e6;
+    border-bottom: 1px solid #ffffff;
+}
+
+nav a:first-of-type {
+    border-top: 1px solid #ffffff;
+}
+
+nav a:hover {
+    background-color: #eaeaea;
+    color: #869dc7;
+}
+
+
+
+
+
+/* Headings
+--------------------------------*/
+h1 {
+    font-family: 'Share', cursive;
+    font-size: 250%;
+}
+
+h2 {
+    color: #869dc7;
+    border-bottom: 1px solid #869dc7;
+    margin-bottom: .75rem;
+    font-size: 150%;
+    font-family: 'Share', cursive;
+}
+
+
+
+/* Tools
+--------------------------------*/
+
+figure.right {
+    margin: 0 0 1rem 1rem;
+    float: right;
+    background-color: #869dc7;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 0 .5rem 0;
+    width: 200px;
+}
+
+figure.right img {
+    border-radius: 20px;
+}
+
+div.backtotop {
+    /* hidden on desktop version */
+    text-transform: uppercase;
+    margin: 3rem 0 1rem 0;
+    font-size: 75%;
+    text-align: center;
+}
+
+div.backtotop a {
+    text-decoration: none;
+    border-radius: 1rem;
+    border: 2px solid silver;
+    background-color: #b3c7e6;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* Media Query
+--------------------------------*/
